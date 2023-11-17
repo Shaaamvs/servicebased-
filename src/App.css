@@ -1,0 +1,91 @@
+.logos{
+  width: 4%;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.backgroundimage{
+  background-image: url('./Image/pexels-photo-1846422.webp');
+background-repeat:repeat;
+height: 100vh;
+}
+
+
+.hoverhome:hover{
+ border-bottom: 2px #8b6037 solid;
+
+}
+.readmorebutton:hover{
+  background-color: #8b6037 !important;
+}
+.LoremIpsum{
+  color: black;
+  font-weight: 600;
+}
+.content{
+  margin-top: 15% !important ;
+}
+
+.services{
+  font-weight: 600;
+}
+
+.ptagcontent{
+  font-weight: 600;
+}
+.coffeeimage {
+  width: 50% !important;
+  height: 80% !important;
+}
+
+.WhatisLoremIpsum{
+  font-weight: bold;
+}
+
+.texttag{
+  font-weight: 600;
+}
+.contentdummy{
+  margin-left: 2%;
+}
+
+.title{
+  font-weight: 800;
+}
+
+.standard{
+  font-weight: 600;
+}
+
+.list-group-item.standard:hover {
+  background-color: #212529;; /* Change the background color on hover */
+  cursor: pointer; 
+  color: white;/* Change cursor to a pointer on hover for better user experience */
+  /* Add any other styles you want to apply on hover */
+}
+@media (max-width: 575.98px) { 
+
+  body{
+    overflow-x: hidden;
+  }
+  .logos {
+    width: 17%;
+}
+
+button.btn.btn-dark.w-25.readmorebutton {
+  width: 50% !important;
+}
+
+img.img-fluid.coffeeimage {
+  width: 100%  !important;
+}
+
+
+.content {
+  margin-top: 49% !important;
+}
+ }
+
